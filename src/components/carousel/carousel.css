@@ -1,0 +1,9 @@
+.items1 {
+  display: flex;
+  justify-content: center;
+}
+
+.item1 {
+  width: 1140px;
+  height: 380px;
+}

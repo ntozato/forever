@@ -1,0 +1,38 @@
+.newsletter {
+  background-color: #F5717F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter h5 {
+  color: white;
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.newsletter p {
+  color: white;
+  font-size: 14px;
+}
+
+.newsletter input {
+  width: 651px;
+  margin-bottom: 30px;
+  width: 651px;
+  height: 52px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  border: none;
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
+
+.button {
+  height: 52px;
+  border: none;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: white;
+  color: #345C7D;
+}
