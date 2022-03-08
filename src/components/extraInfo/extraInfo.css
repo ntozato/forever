@@ -1,0 +1,28 @@
+.extra-info {
+  background-color: #F1F1F1;;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+.extra-info p {
+  color: #345C7D;
+}
+
+.nav-items {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.nav-items a{
+  margin-left: 50px;
+  text-decoration: none;
+  color: #345C7D;
+}
+
+.nav-items a:last-child {
+  margin-right: 100px;
+}
+

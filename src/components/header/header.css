@@ -1,0 +1,73 @@
+.header {
+  /* position: absolute; */
+  width: 100%;
+  background: #F7B094;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.icons {
+  display: flex;
+  margin-right: 25px;
+}
+
+.person-icon {
+  font-size: 23px;
+  color: white;
+  
+}
+
+.test {
+  align-items: center;
+  background: #F5717F;
+  border-radius: 100%;
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  margin: 0 auto;
+  width: 32px;
+}
+
+.person-icon svg {
+  width: 15px;
+}
+
+.icon span{
+  color: white;
+  font-size: 12px;
+}
+.icon {
+  margin-right: 10px;
+}
+
+.icon:last-child {
+  margin-left: 23px;
+}
+
+.input {
+  /* width: 651px; */
+  height: 52px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  border: none;
+  outline: 0;
+  box-shadow: 0 0 0 0;
+  width: 100%;
+}
+
+.search-button {
+  height: 52px;
+  border: none;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: white;
+  color: #345C7D;
+}
+
+.logo {
+  /* width: 160px; */
+  margin-left: 25px;
+}

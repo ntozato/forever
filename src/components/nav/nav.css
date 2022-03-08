@@ -1,0 +1,25 @@
+nav {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 40px;
+  width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  margin-right: 70px;
+}
+
+/* .nav :last-child {
+  margin-right: 100px;
+} */
+
+.menu {
+  background-color: #F5717F;
+}
