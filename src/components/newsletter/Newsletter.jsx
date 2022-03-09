@@ -3,6 +3,7 @@ import './newsletter.css';
 import Alert from 'react-bootstrap/Alert';
 const axios = require('axios');
 
+
 function Newsletter() {
   const [email, setEmail] = useState('');
   const url = 'https://foreverliss1.websiteseguro.com/teste-dev/newsletter.php';

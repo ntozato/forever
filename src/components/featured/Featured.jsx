@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Card from '../cards/Card';
+import Toast from 'react-bootstrap/Toast'
 import './featured.css'
 
 function Featured() {
