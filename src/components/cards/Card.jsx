@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../../images/logo.svg';
 import "./card.css"
 import star from '../../images/star.svg'
-import { BsCart } from "react-icons/bs";
+import CardButton from '../cartButton/CardButton';
 
 
 function Card() {
@@ -24,12 +24,7 @@ function Card() {
         <img src={star} />
         <img src={star} />
       </div>
-      <div className="card-button">
-        <button type="button">
-          <BsCart className="cart-icon"/>
-          Adicionar ao carrinho
-        </button>
-      </div>
+      <CardButton />
     </div>
   );
 }

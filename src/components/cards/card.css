@@ -38,23 +38,6 @@
   width: 30px;
 }
 
-.card-button button{
-  background-color: #FF8A00;
-  color: white;
-  border: none;
-  box-shadow: inset 0px 4px 10px #FFAD4D;
-  border-radius: 3px;
-  width: 227px;
-  height: 46px;
-}
-
-.card-button {
-  display: flex;
-  justify-content: center;
-  margin-top: 35px;
-  padding: 0 10px;
-}
-
 .cart-icon {
   margin-right: 10px;
 }
